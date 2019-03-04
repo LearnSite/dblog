@@ -1,0 +1,30 @@
+uuid: 9f36e486-d787-4df8-9ebb-f52d8ef5dc03
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+name: 'Blog Article'
+type: blog_article
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
