@@ -1,16 +1,17 @@
-uuid: a8a1f38a-35fe-4f0b-adf0-9426b9943ac5
+uuid: 3e29746c-2cc1-4c74-ae48-a2dafac32050
 langcode: en
 status: true
 dependencies:
   module:
+    - media
     - paragraphs
-    - youtube
-id: paragraph.field_youtubes
-field_name: field_youtubes
+id: paragraph.field_remote_videos
+field_name: field_remote_videos
 entity_type: paragraph
-type: youtube
-settings: {  }
-module: youtube
+type: entity_reference
+settings:
+  target_type: media
+module: core
 locked: false
 cardinality: -1
 translatable: true

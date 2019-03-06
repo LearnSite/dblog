@@ -1,9 +1,9 @@
-uuid: 8fa833dc-96bf-46eb-ae21-b83b0fbd8a9e
+uuid: addee193-8802-49a9-bfdb-768d8275cde7
 langcode: en
 status: true
 dependencies: {  }
-id: youtube
-label: 'Video Youtube'
+id: remote_video
+label: 'Remote Video'
 icon_uuid: null
 description: ''
 behavior_plugins: {  }
