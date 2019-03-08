@@ -115,7 +115,11 @@
             },
             "drupal/config_installer": {
                 "Memory leak": "https://www.drupal.org/files/issues/2018-08-21/2991182-6.patch"
+            },
+            "drupal/core": {
+                "Media library": "https://www.drupal.org/files/issues/2018-09-10/media-library-subfolder-installation-path-error-2990664-4-d8.patch"
             }
+            
         }
     }
 }
