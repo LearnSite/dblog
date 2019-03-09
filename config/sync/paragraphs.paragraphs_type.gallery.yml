@@ -1,9 +1,13 @@
 uuid: 71813d6b-1e27-4cd3-bc8e-3daaf403bf58
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - dlog_paragraphs
 id: gallery
 label: Gallery
 icon_uuid: null
 description: ''
-behavior_plugins: {  }
+behavior_plugins:
+  dlog_paragraphs_gallery:
+    enabled: true
